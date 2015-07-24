@@ -1,0 +1,34 @@
+@import "_variables";
+@import "_utils";
+@import "_ribbons";
+
+body {
+	background-color: lightgreen;
+	color: $txt-color1;
+	padding: 40px;
+	text-transform: lowercase;
+}
+
+.nav-list {
+	@extend .center;
+	@extend .reset-list;
+
+	.nav-list-item {
+	float: left;
+	
+
+		a {
+			text-decoration: none;
+			padding: 6px;
+			border-left: 1px green dotted;
+			&:hover {
+				text-decoration: underline;
+				border-left: none;
+			}
+		}
+	}
+}
+
+.cta-ribbon {
+	@include ribbon($color: #fff, $bgColor: #f56100);
+}
