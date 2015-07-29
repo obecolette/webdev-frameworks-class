@@ -1,0 +1,495 @@
+/* _________________________________________
+CONTENT:	ProjectName, Stylesheet Purpose
+AUTHOR:		Your Name
+____________________________________________
+
+TABLE OF CONTENTS:
+
+1. html root
+2. typograpy
+3. content
+
+========================================================== */
+
+html, body {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.page-wrap {
+	float: left;
+	width: 100%;
+	/*min-width: 1076px;*/
+	margin: 0 auto;
+	height: auto;
+}
+
+header, footer {
+	/*float: left;*/
+	width: 100%;
+	/*height: 307px;*/
+	/*padding: 30px 0em;*/
+	background: #f4614c;
+}
+
+.container {
+	float: left;
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*.section-wrap {
+	position: relative;
+	float: left;
+	width: 100%;
+	top: 10em;
+	padding:-left: 15%;
+	padding-right: 15%;
+}*/
+
+.third {
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+.third:nth-of-type(3) {
+	margin-right: 0;
+}
+
+/* TYPOGRAPHY ============================================ */
+
+a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	opacity: 1;
+}
+
+a:hover {
+	opacity: .5;
+	transition: .5s;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.5em;
+	color: #b0a9a5;
+}
+
+h5 {
+	font-size: 1em;
+	color: #b0a9a5;
+}
+
+
+
+.banner-arrow-long{
+  	background: url('../img/banner-long.png') no-repeat;
+  	background-size: contain;
+  	float: right;
+  	right: 25%;
+  	position: absolute;
+  	top: 12em;
+  	width: 28em;
+  	text-align: center;
+  	height: 3em;
+  	padding-top: 1em;
+}
+
+.banner-arrow-short{
+	background: url('../img/banner-short.png') no-repeat;
+  	background-size: contain;
+  	float: right;
+	position: relative;
+ 	width: 6em;
+  	text-align: center;
+  	height: 3em;
+  	padding-top: .5em;
+  	color: black !important;
+  	text-transform: none !important
+}
+
+
+/* CONTENT ============================================ */
+
+
+/* header */
+
+header {
+
+}
+
+header .porky-logo {
+	/*float: left;*/
+	/*position: absolute;*/
+	/*top: 1%;*/
+	/*left: 12%;*/
+	display: block;
+	width: 15.5%; /*167/1078*/
+	padding: 5% 0 5% 5%;
+	/* total width 20.5% */
+}
+
+header div.header-text {
+	float: right;
+	width: 79.5%;
+}
+
+header h1 {
+	/*display: none;*/
+	text-align: center;
+	/*float: right;*/
+	/*position: absolute;*/
+	/*right: 24%;*/
+}
+
+header .slogan {
+	/*display: none;*/
+    /*position: absolute;*/
+    /*float: right;*/
+    /*width: 57%;*/
+    /*right: 7%;*/
+    /*top: 2%;*/
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+header .star-icon{
+	/*display: none;*/
+  	/*float: right;*/
+  	/*position: absolute;*/
+  	text-align: center;
+  	/*top: 8em;*/
+  	/*width: 87%;*/
+}
+
+header ul {
+	/*display: none;
+	float: left;*/
+	width: 100%;
+	/*height: auto;*/
+	text-align: center;
+	padding: 0;
+	background-color: #202020;
+	position: absolute;
+	top: 360px;
+}
+
+header ul li {
+	list-style: none;
+	display: inline-block;
+	border-left: 1px dashed #636363; 
+	padding: 0;
+	width: 140px;
+}
+
+header ul li a {
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+}
+
+header ul li:last-child {
+	border-bottom: 0;
+	border-right: 0;
+}
+
+header ul li a:hover {
+	background: #f4614b;
+}
+
+.looney-logo {
+	float: left;
+	position: absolute;
+	top: 0;
+	right: 47%;
+}
+
+/* intro */
+
+.intro{
+	text-align: center;
+	padding: 4em 0 2em;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+	width: 60%;
+	position: relative;
+	left: 20%;
+	float: left;
+}
+
+.intro h2{
+	margin-bottom: 1em;
+}
+
+.intro h5{
+	width: 70%;
+	margin: 0 auto;
+	line-height: 35px;
+}
+
+.half{
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+
+
+/* >>>>>>>> work section <<<<<<<< */
+
+.mtv{
+	background: #9dccab;
+	margin-top:2em;
+	margin-bottom: 2em;
+	float: left;
+	width: 100%;
+	padding: 5% 0 0 0;
+	height: 580px
+}
+
+.mtv h2{
+	text-align: center;
+  	width: 100%;
+  	line-height: 45px;
+  	letter-spacing: 2px;
+}
+
+.mtv h6{
+	color: white;
+	text-align: center;
+}
+
+.mtv .half:nth-of-type(1) img{
+	position: relative;
+  	left: 15%;
+  	width: 20em;
+  	bottom: 0;
+  	top: 30%;
+}
+
+.mtv .star-icon{
+	text-align: center;
+}
+
+.third img{
+	width: 100%;
+}
+
+.showMore{
+  	background: #ffce10;
+  	float: left;
+  	width: 40%;
+  	margin-top: 4em;
+  	padding: 1em 0em;
+  	position: relative;
+  	left: 30%;
+  	text-align: center; 
+  	color: black;
+}
+
+/* >>>>>>>> news section <<<<<<<< */
+
+#news, #blog, #about, #network, #contact{
+	float: left;
+	margin-top: 5em;
+}
+
+#news a{
+	color: black;
+	text-transform: none;
+}
+
+#news .intro h5{
+	width: 90%;
+}
+
+#news .half{
+	margin-top: 2em;
+}
+
+#news .half img{
+	padding: 0% 2%;
+	width: 95%;
+}
+
+#news .half .banner-arrow-short{
+	float: left;
+	width: 8em;
+}
+
+.row{
+	float: left;
+}
+
+/* >>>>>>>> blog section <<<<<<<< */
+
+
+#blog .intro h5{
+	width: 88%;
+}
+
+/* >>>>>>>> network section <<<<<<<< */
+
+#network .intro h5,
+#contact .intro h5{
+	width: 90%;
+}
+
+/* >>>>>>>> contact section <<<<<<<< */
+
+#contact span{
+	background: #ffcd0f;
+}
+
+/* >>>>>>>> footer <<<<<<<< */
+
+footer{
+	margin-top: 15em;
+	width: 70%;
+	padding-left: 15%;
+	padding-right: 15%;
+	height: 100%;
+}
+
+#social{
+	width: 100%;
+	float: left;
+}
+
+.tweet{
+	float:left;
+}
+
+.fb{
+	float: right;
+}
+
+form{
+	float: left;
+	position: relative;
+	top: 3em;
+}
+
+footer .banner-arrow-long{
+	right: 0;
+	top: 3em;
+	padding-top:.7em;
+	width: 21em;
+	position: relative;
+}
+
+footer h2,footer h4,
+footer .star-icon{
+	text-align: center;
+	position: relative;
+}
+
+footer a{
+	float: left;
+	position: relative;
+	top: 2em;
+	color: black;
+	left: 6em;
+	font-style: italic;
+	text-transform: none;
+}
+
+footer .row{
+	width: 100%;
+	margin-top: 4em;
+}
+
+/* bigger */
+
+@media only screen and (min-width: 1076px) {
+
+
+}
+
+
+
+/*.container {
+	position: relative;
+	max-width: 1076px;
+	margin: 0 auto;
+	height: auto;
+}
+
+ul {
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: #202020;
+	
+}
+
+ul li {
+	float: left;
+	display: inline;
+	list-style: none;
+	padding: 10px;
+	border-right: 1px white dashed;
+}
+
+ul li a img {
+	position: absolute;
+}
+ul li a {
+	float: left;
+	width: 100%;
+	padding: 4px 44px
+	
+}
+
+ul li:last-child {
+	border-right: 0;
+}
+
+ul li a:hover {
+	background: #f4614b;
+}*/
+
+/* bigger 
+
+/*@media only screen and (min-width: 1076px) {
+
+	.section-wrap {
+		float: left;
+		height: auto;
+		width: 100%;
+	}
+
+	ul {
+
+		width: auto;
+		margin: 0 auto;
+	}
+
+	ul li {
+		width: 100%;
+		border-right: 1px dashed #636363;
+		margin-right: 25px;
+	}
+}
+*/
+
