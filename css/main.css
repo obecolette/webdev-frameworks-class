@@ -1,0 +1,182 @@
+/* _________________________________________
+CONTENT:	ProjectName, Stylesheet Purpose
+AUTHOR:		Your Name
+____________________________________________
+
+TABLE OF CONTENTS:
+
+1. html root
+2. typograpy
+3. content
+
+========================================================== */
+/* 1. HTML ROOT  ========================================= */
+* {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0; }
+
+/* 2. TYPOGRAPHY  ======================================== */
+figure {
+  position: relative;
+  margin: 0; }
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 6%;
+  font-size: 1.2em; }
+
+figcaption p {
+  color: #fff;
+  font-style: italic;
+  margin: 0;
+  color: white; }
+
+/* 3. CONTENT  =============================================== */
+.pic {
+  width: 50%;
+  height: 195px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  float: left;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  /* keeping images porportioned center */
+  background-position: center center;
+  transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in; }
+
+.pic:hover {
+  cursor: pointer;
+  border: 10px solid white;
+  -webkit-transition: all 0.1s ease-in;
+  opacity: .5; }
+
+.pic-1 {
+  background-image: url(../img/pic-1.jpg); }
+
+.pic-2 {
+  background-image: url(../img/pic-2.jpg); }
+
+.pic-3 {
+  background-image: url(../img/pic-3.jpg); }
+
+.pic-4 {
+  background-image: url(../img/pic-4.jpg); }
+
+.pic-5 {
+  background-image: url(../img/pic-5.jpg); }
+
+.pic-6 {
+  background-image: url(../img/pic-6.jpg); }
+
+.pic-7 {
+  background-image: url(../img/pic-7.jpg); }
+
+.pic-8 {
+  background-image: url(../img/pic-9.jpg); }
+
+.pic-9 {
+  background-image: url(../img/pic-9.jpg); }
+
+.pic-10 {
+  background-image: url(../img/pic-10.jpg); }
+
+.pic-11 {
+  background-image: url(../img/pic-11.jpg); }
+
+.pic-12 {
+  background-image: url(../img/pic-12.jpg); }
+
+.pic-13 {
+  background-image: url(../img/pic-13.jpg); }
+
+.pic-14 {
+  background-image: url(../img/pic-14.jpg); }
+
+.pic-15 {
+  background-image: url(../img/pic-15.jpg); }
+
+.pic-16 {
+  background-image: url(../img/pic-16.jpg); }
+
+.pic-17 {
+  background-image: url(../img/pic-17.jpg); }
+
+.pic-18 {
+  background-image: url(../img/pic-18.jpg); }
+
+.pic-19 {
+  background-image: url(../img/pic-19.jpg); }
+
+.pic-20 {
+  background-image: url(../img/pic-20.jpg); }
+
+.pic-21 {
+  background-image: url(../img/pic-21.jpg); }
+
+.pic-22 {
+  background-image: url(../img/pic-22.jpg); }
+
+.pic-23 {
+  background-image: url(../img/pic-23.jpg); }
+
+.pic-24 {
+  background-image: url(../img/pic-24.jpg); }
+
+.pic-25 {
+  background-image: url(../img/pic-25.jpg); }
+
+.pic-26 {
+  background-image: url(../img/pic-26.jpg); }
+
+.pic-27 {
+  background-image: url(../img/pic-27.jpg); }
+
+.pic-28 {
+  background-image: url(../img/pic-28.jpg); }
+
+.pic-29 {
+  background-image: url(../img/pic-29.jpg); }
+
+.pic-30 {
+  background-image: url(../img/pic-30.jpg); }
+
+.pic-31 {
+  background-image: url(../img/pic-31.jpg); }
+
+.pic-32 {
+  background-image: url(../img/pic-32.jpg); }
+
+.pic-33 {
+  background-image: url(../img/pic-33.jpg); }
+
+.pic-34 {
+  background-image: url(../img/pic-34.jpg); }
+
+.pic-35 {
+  background-image: url(../img/pic-35.jpg); }
+
+.pic-36 {
+  background-image: url(../img/pic-34.jpg); }
+
+.pic-37 {
+  background-image: url(../img/pic-37.jpg); }
+
+@media screen and (min-width: 768px) {
+  .pic {
+    width: 33.33%;
+    height: 320px; } }
+
+@media screen and (min-width: 1440px) {
+  .pic {
+    width: 25%; } }
