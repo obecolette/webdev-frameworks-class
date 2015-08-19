@@ -1,0 +1,51 @@
+@import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+@import "_variables";
+@import "_utils";
+@import "_ribbons";
+
+body {
+	color: $brandGrey;
+	background: white;
+
+	.full-width {
+		width: 100%;	
+	}
+
+	header {
+		
+		img {
+			width: 30%;
+		}
+	}
+
+	#about {
+		color: $brandGrey;
+		img {
+			width: 40%;
+   			margin: 0 auto;
+		}
+	}
+
+	#services {
+		background: $brandGrey;
+	}
+
+	footer {
+
+		img {
+			width: 30%;
+		}
+
+		.fa {
+			width: 100%;
+		}
+
+		a {
+			color: $brandGrey;
+		}
+
+	}
+}
+
+

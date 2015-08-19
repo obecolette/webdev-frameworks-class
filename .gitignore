@@ -2,3 +2,5 @@
 .DS_Store
 _frameworks_notes.rtf
 \!records
+node_modules
+**/node_modules/
