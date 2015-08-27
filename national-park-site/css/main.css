@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+.reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+/* primary CTA ribbon */
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: gray;
+  text-align: center; }
+  body .outer-container {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    body .outer-container::after {
+      clear: both;
+      content: "";
+      display: table; }
+    body .outer-container .column {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-left: 25.58941%; }
+      body .outer-container .column:last-child {
+        margin-right: 0; }
+  body .two {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    body .two::after {
+      clear: both;
+      content: "";
+      display: table; }
+    body .two .three {
+      width: 100%;
+      display: table;
+      width: 100%;
+      table-layout: fixed; }
+    body .two .four {
+      display: table-cell;
+      width: 33.33333%;
+      padding: 2.35765%;
+      background-color: lightblue;
+      color: white; }
+      @media screen and (max-width: 500px) {
+        body .two .four {
+          display: table-cell;
+          width: 75%; } }
+    body .two .five {
+      display: table-cell;
+      width: 66.66667%;
+      padding: 2.35765%; }
+      @media screen and (max-width: 500px) {
+        body .two .five {
+          display: table-cell;
+          width: 75%; } }
+  body .six {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    body .six::after {
+      clear: both;
+      content: "";
+      display: table; }
+    body .six .seven {
+      width: 100%;
+      display: table;
+      width: 100%;
+      table-layout: fixed; }
+    body .six .eight {
+      display: table-cell;
+      width: 33.33333%;
+      padding: 2.35765%;
+      background-color: lightblue;
+      color: white; }
+      @media screen and (max-width: 500px) {
+        body .six .eight {
+          display: table-cell;
+          width: 75%; } }
+    body .six .nine {
+      display: table-cell;
+      width: 66.66667%;
+      padding: 2.35765%; }
+      @media screen and (max-width: 500px) {
+        body .six .nine {
+          display: table-cell;
+          width: 75%; } }
+  body input[type="color"], body input[type="date"], body input[type="datetime"], body input[type="datetime-local"], body input[type="email"], body input[type="month"], body input[type="number"], body input[type="password"], body input[type="search"], body input[type="tel"], body input[type="text"], body input[type="time"], body input[type="url"], body input[type="week"], body textarea {
+    border: 1px solid gray;
+    padding: 10px; }
+  body input[type="color"]:focus, body input[type="date"]:focus, body input[type="datetime"]:focus, body input[type="datetime-local"]:focus, body input[type="email"]:focus, body input[type="month"]:focus, body input[type="number"]:focus, body input[type="password"]:focus, body input[type="search"]:focus, body input[type="tel"]:focus, body input[type="text"]:focus, body input[type="time"]:focus, body input[type="url"]:focus, body input[type="week"]:focus, body textarea:focus,
+  body input[type="color"]:hover, body input[type="date"]:hover, body input[type="datetime"]:hover, body input[type="datetime-local"]:hover, body input[type="email"]:hover, body input[type="month"]:hover, body input[type="number"]:hover, body input[type="password"]:hover, body input[type="search"]:hover, body input[type="tel"]:hover, body input[type="text"]:hover, body input[type="time"]:hover, body input[type="url"]:hover, body input[type="week"]:hover, body textarea:hover {
+    border: 1px solid blue; }
+  body input[type="color"]:active, body input[type="date"]:active, body input[type="datetime"]:active, body input[type="datetime-local"]:active, body input[type="email"]:active, body input[type="month"]:active, body input[type="number"]:active, body input[type="password"]:active, body input[type="search"]:active, body input[type="tel"]:active, body input[type="text"]:active, body input[type="time"]:active, body input[type="url"]:active, body input[type="week"]:active, body textarea:active {
+    border: 1px solid green; }

@@ -1,0 +1,115 @@
+@import "node_modules/node-bourbon/node_modules/bourbon/app/assets/stylesheets/bourbon";
+@import "node_modules/node-neat/node_modules/bourbon-neat/app/assets/stylesheets/neat";
+@import "_variables";
+@import "_utils";
+@import "_ribbons";
+
+body {
+	
+	
+	font-family: $helvetica;
+	color: gray;
+	text-align: center;
+
+	.outer-container {
+		@include outer-container;
+		// @include linear-gradient(#1e5799, #2989d8);
+		
+		.column {
+			@include span-columns(6);
+			@include shift(3);
+			
+		}
+
+	}
+
+	.two {
+		@include outer-container;
+		$mobile: new-breakpoint(max-width 500px 4);
+
+		.three {
+			@include fill-parent();
+			@include row(table);
+		}
+
+		.four {
+			@include media($mobile) {
+			  @include span-columns(3);
+			}
+			@include span-columns(4);
+			@include pad();
+			background-color: lightblue;
+			color: white;
+		}
+
+		.five {
+			@include media($mobile) {
+			  @include span-columns(3);
+			}
+			@include span-columns(8);
+			@include reset-display;
+			@include pad(); 
+
+
+		}
+
+	}
+
+	.six {
+		@include outer-container;
+		$mobile: new-breakpoint(max-width 500px 4);
+
+		.seven {
+			@include fill-parent();
+			@include row(table);
+		}
+
+		.eight {
+			@include media($mobile) {
+			  @include span-columns(3);
+			}
+			@include span-columns(4);
+			@include pad();
+			background-color: lightblue;
+			color: white;
+		}
+
+		.nine {
+			@include media($mobile) {
+			  @include span-columns(3);
+			}
+			@include span-columns(8);
+			@include reset-display;
+			@include pad(); 
+
+
+		}
+
+	}
+
+	
+	
+
+	#{$all-text-inputs} {
+	  border: 1px solid gray;
+	  padding: 10px;
+	}
+
+	#{$all-text-inputs-focus},
+	#{$all-text-inputs-hover} {
+	  border: 1px solid blue;
+	}
+
+	#{$all-text-inputs-active} {
+	  border: 1px solid green;
+	}
+
+}
+
+// .background {
+// 	  background-image: url('assets/img/bg.jpg');
+// 	  background-repeat: no-repeat;
+// 	  background-size: cover;
+// 	  background-position: 100% 100%;
+// 	  background-attachment: fixed;
+// }
